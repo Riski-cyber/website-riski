@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riski | Portofolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+    text-align: center;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 40px 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    animation: fadeIn 1s ease;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 10px 0 5px;
+}
+
+p {
+    margin: 5px 0;
+    opacity: 0.9;
+}
+
+.btn {
+    display: block;
+    background: white;
+    color: #333;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #333;
+    color: white;
+    transform: scale(1.05);
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <img src="FB_IMG_17522433597226801.jpg">
+
+    <h1>Riski</h1>
+
+    <p>Rekayasa Sistem Komputer (S-1)</p>
+    <p>Universitas Muhammadiyah Buton</p>
+    <p>Sedang dalam proses pendidikan</p>
+    <p>Fokus: C++ | Web Developer</p>
+    <p>Buton, Indonesia</p>
+
+    <a class="btn" href="https://wa.me/6282236293614">Chat WhatsApp</a>
+
+    <a class="btn" href="https://www.tiktok.com/@rizkyvisioner">TikTok Saya</a>
+
+    <a class="btn" href="https://github.com/">GitHub</a>
+
+    <button class="btn" onclick="halo()">Tentang Saya</button>
+
+    <div class="footer">
+        © 2026 Riski
+    </div>
+
+</div>
+
+<script>
+function halo() {
+    alert("Halo! Saya Riski, mahasiswa Rekayasa Sistem Komputer di Universitas Muhammadiyah Buton yang sedang belajar C++ dan Web Development 🚀");
+}
+</script>
+
+</body>
+</html>
